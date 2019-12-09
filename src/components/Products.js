@@ -8,7 +8,7 @@ import Product from "./Product";
  * To do so let's head over to our `Products` component and import the `useContext` hook
  * as well as our `ProductContext`.
  */
-import ProductContext from "../contexts";
+import { ProductContext } from "../contexts";
 
 const Products = () => {
   /**
