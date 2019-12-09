@@ -31,7 +31,7 @@ const Products = () => {
  	Now our `Products` component is getting it's data solely from `Context API` 😃.
    */
   return (
-    <div className="products-container">
+    <div data-testid="products" className="products-container">
       {products.map(product => (
         <Product key={product.id} product={product} addItem={addItem} />
       ))}
